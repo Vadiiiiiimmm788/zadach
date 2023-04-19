@@ -1,0 +1,175 @@
+body{background-image: url(img/fon1.jpg)}
+.telo{
+margin:0; 
+border-spacing:0;
+width:100%;
+height:100%;
+ }
+.zag{background-color:#3A7CA5;
+	height:50px
+;
+font-size:200%;
+text-align: center;}
+.menu{background-color:#D9DCD6;
+text-align:center;
+vertical-align: top;
+width:20%;
+border:3px solid #2F6690;
+border-style:inset;
+}
+.main{
+line-height:20px;
+background-color:#D9DCD6;
+width:80%;
+border:3px solid #2F6690;
+border-style:outset;
+border:3px solid #2F6690;
+border-style:inset;
+
+}
+.podval{background-color:#16425B;
+height:50px;
+width:100%;
+text-align: center;}
+.priv{text-align:center;
+line-height:20px;}
+
+td{font-weight:600;
+font-size:150%;}
+
+ul{
+list-style:none;
+}
+
+.but{
+	border:3px
+	 solid #F83012;
+border-style:inset;
+font-size:90%;
+text-align:center;
+background-color: #D9DCD6;
+ color: #000000;
+padding: 5% 10%;
+ font-size:25px;
+ cursor: pointer;
+ position:relative;
+ right: 8%;
+}
+.but:hover { 
+    background-color: #F84712;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    color: #D9DCD6;
+}
+.str{border:3px solid #F83012;
+border-style:inset;
+ position:relative;
+ right: 16%;
+font-size:90%;
+background-color: #F84712;
+ color:#D9DCD6;
+padding: 5% 20%;
+ font-size:25px;
+ cursor: pointer;}
+ a{text-decoration: none;
+ 	color:black;}
+ .con{vertical-align:top;}  
+.vid {
+	border:3px solid #2F6690;
+	border-style:inset;
+ 	font-size:20px;
+    background-color: #81C3D7;
+    color:#D9DCD6 ;
+    padding: 16px;
+    cursor: pointer;
+    width:250px; 
+    
+  }
+
+  .cover {
+    position: relative;
+    display: inline-block;
+  }
+
+  .okno {display: none;
+  	position: relative;top:0%; 
+    position: relative;left:100%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .okno a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .okno a:hover {background-color: #81C3D7}
+
+  .cover:hover .okno{
+    display: block;
+  }
+
+  .cover:hover .vid {
+    background-color: #81C3D7;
+  
+ }
+ .ul1{vertical-align:top;}
+.cov {
+    position: relative;
+    display: inline-block;
+  }
+  .cov:hover .okno2{
+    display: block;
+  }
+
+  .cov:hover .vil {
+    background-color: #81C3D7;}
+  .vil{
+	
+ 	font-size:20px;
+    border:none;
+    color:black;
+    padding: 16px;
+    cursor: pointer;
+	    width:250px; }
+  .okno2{display: none;
+  	position: relative;top:0%; 
+    position: relative;left:100%;
+    display: none;
+    position: absolute;
+    background-color:white ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .okno2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.okno2 a:hover {background-color: #81C3D7}
+.mail{ border:3px solid #F83012;
+border-style:inset;
+font-size:30%;
+text-align:center;
+background-color: #D3DCD3;
+ color: #000000;
+ font-size:25px;
+ cursor: pointer;
+ }
+ .mail:hover {
+     background-color: #F84712;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    color:#D9DCD6;
+	    }	
+  
